@@ -12,12 +12,10 @@
     <organization>
         <name>Dirk Lemmermann Software &amp; Consulting</name>
     </organization>
-
     <url>https://github.com/dlsc-software-consulting-gmbh/CalendarFX</url>
-
     <properties>
-        <sonar.organization>crewmates-2021-2</sonar.organization>
-        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  	 <sonar.organization>crewmates-2021-2</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <javafx.version>14</javafx.version>
         <javafx.maven.plugin.version>0.0.4</javafx.maven.plugin.version>
@@ -25,17 +23,14 @@
         <ical4j.version>3.0.15</ical4j.version>
         <ikonli.version>11.3.5</ikonli.version>
     </properties>
-
     <licenses>
         <license>
             <name>Apache 2.0</name>
         </license>
     </licenses>
-
     <scm>
         <url>https://github.com/dlsc-software-consulting-gmbh/CalendarFX</url>
     </scm>
-
     <developers>
         <developer>
             <name>Dirk Lemmermann</name>
@@ -43,7 +38,6 @@
             <organization>DLSC Software &amp; Consulting</organization>
         </developer>
     </developers>
-
     <modules>
         <module>CalendarFXSampler</module>
         <module>CalendarFXView</module>
@@ -53,7 +47,6 @@
         <module>CalendarFXiCal</module>
         <module>CalendarFXWeather</module>
     </modules>
-
     <distributionManagement>
         <repository>
             <id>bintray-dlsc-oss-repository</id>
@@ -63,7 +56,6 @@
             </url>
         </repository>
     </distributionManagement>
-
     <build>
         <plugins>
             <plugin>
@@ -77,33 +69,27 @@
             </plugin>
         </plugins>
     </build>
-
     <dependencies>
         <!-- Test Dependencies -->
-
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.13</version>
             <scope>test</scope>
         </dependency>
-
         <dependency>
             <groupId>org.hamcrest</groupId>
             <artifactId>hamcrest-all</artifactId>
             <version>1.3</version>
             <scope>test</scope>
         </dependency>
-
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-all</artifactId>
             <version>2.0.2-beta</version>
             <scope>test</scope>
         </dependency>
-
     </dependencies>
-
     <reporting>
         <plugins>
             <plugin>
@@ -118,5 +104,4 @@
             </plugin>
         </plugins>
     </reporting>
-
 </project>
